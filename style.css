@@ -1,216 +1,59 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
- <link rel="stylesheet" href="css.css">  
-  <script></script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf8"><title>Configuration-Related Bugs : Empirical Study</title>
-  <link rel="stylesheet" href="main.css">
-  </head>
-<body>
-<hr>
-<h2 style="text-align: center;"> Detecting bugs each new version of the Configurable System<br></h2>
-<hr>
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 75%;
+  text-align: center;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
 
-<h3>Overview</h3>
-<p align="justify">
-RESUMO DO PAPER
-</p>
-<br>
-
-<h3>Main Results</h3>
-Next we present the main results of this paper.
-<br><br>
-<div class="centered">
-
-
-</p>
-
-<table class="blueTable" cellspacing="0" cellpadding="0">
-	<tr align="center" bgcolor="black">
-		<td><font color="white">&nbsp;&nbsp;&nbsp;PROJECT&nbsp;&nbsp;&nbsp;</font></td>
-		<td><font color="white">&nbsp;&nbsp;&nbsp;FILE (fixed)&nbsp;&nbsp;&nbsp;</font></td>
-		<td><font color="white">&nbsp;&nbsp;&nbsp;LINE (not fixed)&nbsp;&nbsp;&nbsp;</font></td>
-		<td><font color="white">&nbsp;&nbsp;&nbsp;HOW LONG&nbsp;&nbsp;&nbsp;</font></td>
-		<td><font color="white">&nbsp;&nbsp;&nbsp;CWE&nbsp;&nbsp;&nbsp;</font></td>
-		<td><font color="white">&nbsp;&nbsp;&nbsp;FEATURE FLAGS&nbsp;&nbsp;&nbsp;</font></td>
-	</tr>
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/apps/datacopy.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/apps/datacopy.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/apps/tsql.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/apps/tsql.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/apps/tsql.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/apps/tsql.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/apps/tsql.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/ctlib/ct.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/ctlib/ct.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/ctlib/ct.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/ctlib/ct.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/ctlib/ct.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/dblib/dbpivot.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/dblib/dbpivot.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/pool/member.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/pool/member.c</a></td>
-		<td></td>
-		<td></td>
-		<td>476</td>
-		<td>1</td>	
-	</tr>
-</table>
-
-
-<p><b>Pull Requests</b><br>
-
-<table class="blueTable" cellspacing="0" cellpadding="0">
-	<tr align="center" bgcolor="black">
-		<td><font color="white">&nbsp;&nbsp;&nbsp;PROJECT&nbsp;&nbsp;&nbsp;</font></td>
-		<td><font color="white">&nbsp;&nbsp;&nbsp;FILE&nbsp;&nbsp;&nbsp;</font></td>
-		<td><font color="white">&nbsp;&nbsp;&nbsp;STATUS&nbsp;&nbsp;&nbsp;</font></td>
-	</tr>
-
-	<tr align="center" class="odd">
-		<td>FreeTDS</td>
-		<td><a href="">/src/pool/member.c</a></td>
-		<td></td>	
-	</tr>
-	<tr align="center" class="odd">
-		<td>Expat</td>
-		<td><a href="">/src/pool/member.c</a></td>
-		<td></td>	
-	</tr>
-	<tr align="center" class="odd">
-		<td>FVWM3</td>
-		<td><a href="">/src/pool/member.c</a></td>
-		<td></td>	
-	</tr>
-	<tr align="center" class="odd">
-		<td>LibPNG</td>
-		<td><a href="">/src/pool/member.c</a></td>
-		<td></td>	
-	</tr>
-	<tr align="center" class="odd">
-		<td>LibPNG</td>
-		<td><a href="">/src/pool/member.c</a></td>
-		<td></td>	
-	</tr>
-	<tr align="center" class="odd">
-		<td>LibPNG</td>
-		<td><a href="">/src/pool/member.c</a></td>
-		<td></td>	
-	</tr>
-</table>
-
-</body></html>
+table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
